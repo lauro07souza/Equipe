@@ -1,0 +1,52 @@
+<mat-toolbar>
+  <div
+    fxLayout="row"
+    fxLayoutAlign="center center"
+    fxLayoutAlign.gt-xs="space-between center"
+    fxFlex
+  >
+    <div fxLayout="row" fxLayoutAlign="start center" fxHide fxShow.gt-xs>
+      <div fxLayout="column">
+        <div fxLayoutAlign="start center">
+          <span class="h3 version">VERSION: {{ version }}</span>
+        </div>
+      </div>
+    </div>
+    <div fxLayout="column" fxLayoutAlign="center center" fxHide.xs>
+      <a
+        class="h3"
+        href="https://www.gov.br/economia/pt-br"
+        target="_blank"
+        style="color: white;"
+        rel="noopener noreferrer"
+      >
+        {{ nomeMinisterio }}
+      </a>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="start center" fxShow.gt-xs>
+      <a
+        href="http://www.acessoainformacao.gov.br/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          id="logo-acesso-info"
+          src="assets/images/logos/logo-acesso-info.png"
+          alt="Acesso à informação"
+          style="padding-right: 15px;"
+        />
+      </a>
+      <a
+        href="https://www.gov.br/pt-br"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          id="logo-gov"
+          src="assets/images/logos/logo-gov.png"
+          alt="Governo Federal"
+        />
+      </a>
+    </div>
+  </div>
+</mat-toolbar>

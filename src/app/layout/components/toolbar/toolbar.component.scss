@@ -1,0 +1,101 @@
+@import 'src/@arch/scss/fuse';
+
+#barra-brasil {
+  top: 0 !important;
+  width: 100% !important;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px !important;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+#main #barra-identidade #barra-brasil a.botao-seta-direita i {
+  display: none;
+}
+
+.white-icon {
+  color: white;
+}
+
+#barra-brasil .orgaos-governo-barra ul li a {
+  font-size: 0.75em;
+  text-transform: none;
+  font-weight: bold;
+  font-size: 12px !important;
+}
+
+#barra-brasil div,
+#barra-brasil a,
+#barra-brasil ul,
+#barra-brasil li {
+  vertical-align: -webkit-baseline-middle;
+  font-size: 11px !important;
+}
+
+@font-face {
+  font-family: 'orgao-barra';
+  src: url('https://barra.brasil.gov.br/static/Raleway-Bold.woff')
+    format('woff');
+  font-weight: bold;
+}
+
+toolbar {
+  position: relative;
+  display: flex;
+  flex: 0 0 auto;
+  z-index: 4;
+
+  &.below {
+    z-index: 2;
+  }
+
+  .mat-toolbar {
+    position: relative;
+    background: inherit !important;
+    color: inherit !important;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    .logo-icon {
+      width: 38px;
+    }
+  }
+
+  .user-button,
+  fuse-search-bar,
+  .language-button,
+  .chat-panel-toggle-button,
+  .quick-panel-toggle-button {
+    min-width: 64px;
+    height: 64px;
+
+    @include media-breakpoint('xs') {
+      height: 56px;
+    }
+  }
+
+  .navbar-toggle-button {
+    min-width: 56px;
+    height: 56px;
+  }
+
+  .toolbar-separator {
+    height: 64px;
+    width: 1px;
+
+    @include media-breakpoint('xs') {
+      height: 56px;
+    }
+  }
+}

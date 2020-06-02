@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    "eg2.tslint",
+    "PKief.material-icon-theme",
+    "humao.rest-client",
+    "aaron-bond.better-comments",
+    "christian-kohler.path-intellisense",
+    "CoenraadS.bracket-pair-colorizer",
+    "formulahendry.auto-rename-tag",
+    "WallabyJs.quokka-vscode",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "hookyqr.beautify",
+    "esbenp.prettier-vscode",
+    "equinusocio.vsc-material-theme",
+    "msjsdiag.debugger-for-chrome",
+    "sonarsource.sonarlint-vscode",
+    "riccardonovaglia.missinglineendoffile",
+    "rintoj.blank-line-organizer",
+    "cyrilletuzi.angular-schematics"
+  ]
+}

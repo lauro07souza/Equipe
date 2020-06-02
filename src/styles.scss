@@ -1,0 +1,78 @@
+// Import Fuse core library
+@import '@arch/scss/core';
+
+// Import app.theme.scss
+@import 'app/app.theme';
+
+.swal2-styled.swal2-confirm {
+  border: 0;
+  border-right-color: currentcolor;
+  border-left-color: currentcolor;
+  border-radius: 0.25em;
+  background: initial;
+  background-color: initial;
+  background-image: initial;
+  background-color: rgb(3, 155, 229) !important;
+  color: #fff;
+  font-size: 13px !important;
+}
+
+.swal2-popup {
+  display: none;
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  width: 32em;
+  max-width: 100%;
+  padding: 1.25em;
+  border: none;
+  border-radius: 0.3125em;
+  background: #fff;
+  font-family: inherit;
+}
+
+#swal2-title {
+  position: relative;
+  max-width: 100%;
+  margin: 0 0 0.4em;
+  padding: 0;
+  color: #595959;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: none;
+  word-wrap: break-word;
+}
+
+#swal2-content {
+  color: #545454;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#logo-acesso-info {
+  max-height: 40px !important;
+  height: auto !important;
+  min-height: auto !important;
+}
+
+#logo-gov {
+  max-height: 40px !important;
+  height: auto !important;
+  min-height: auto !important;
+}
+
+i,
+mat-icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  line-height: 24px;
+  display: none;
+}
